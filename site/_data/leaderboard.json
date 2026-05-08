@@ -18,28 +18,14 @@
     "division": "Classic",
     "roundsEntered": 1,
     "passedRounds": 1,
-    "totalScore": 90,
+    "totalScore": 95,
     "wins": 0,
-    "bestScore": 90,
-    "averageScore": 90,
+    "bestScore": 95,
+    "averageScore": 95,
     "languages": [
       "python"
     ],
     "aiUsedCount": 0
-  },
-  {
-    "participant": "Alex",
-    "division": "Open",
-    "roundsEntered": 1,
-    "passedRounds": 1,
-    "totalScore": 85,
-    "wins": 0,
-    "bestScore": 85,
-    "averageScore": 85,
-    "languages": [
-      "csharp"
-    ],
-    "aiUsedCount": 1
   },
   {
     "participant": "Phil",
@@ -54,5 +40,19 @@
       "powershell"
     ],
     "aiUsedCount": 0
+  },
+  {
+    "participant": "Alex",
+    "division": "Open",
+    "roundsEntered": 1,
+    "passedRounds": 0,
+    "totalScore": 3,
+    "wins": 0,
+    "bestScore": 3,
+    "averageScore": 3,
+    "languages": [
+      "csharp"
+    ],
+    "aiUsedCount": 1
   }
 ]

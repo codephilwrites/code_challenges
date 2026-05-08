@@ -1,6 +1,6 @@
 {
-  "participant": "Emma",
-  "language": "javascript",
+  "participant": "Phil",
+  "language": "powershell",
   "division": "Classic",
   "round": "round-002-pingpong",
   "passed": true,
@@ -9,8 +9,8 @@
     "reason": "Output matched expected result"
   },
   "metrics": {
-    "runtimeMs": 32,
-    "characterCount": 94
+    "runtimeMs": 1721,
+    "characterCount": 244
   },
   "aiUsed": false,
   "aiTools": [],
@@ -23,9 +23,9 @@
   },
   "scores": {
     "correctness": 70,
-    "golfScore": 20,
+    "golfScore": 10,
     "submissionHygiene": 5,
-    "total": 95
+    "total": 85
   },
-  "gradedAt": "2026-05-08T20:45:55.038Z"
+  "gradedAt": "2026-05-08T20:45:56.810Z"
 }

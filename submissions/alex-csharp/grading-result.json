@@ -1,0 +1,40 @@
+{
+  "participant": "Alex",
+  "language": "csharp",
+  "division": "Open",
+  "round": "round-002-pingpong",
+  "passed": false,
+  "comparison": {
+    "passed": false,
+    "reason": "Execution failed",
+    "executionError": {
+      "message": "spawnSync /bin/sh ETIMEDOUT",
+      "stdout": "",
+      "stderr": ""
+    }
+  },
+  "metrics": {
+    "runtimeMs": 5008,
+    "characterCount": 203
+  },
+  "aiUsed": true,
+  "aiTools": [
+    "ChatGPT"
+  ],
+  "aiUseType": "solution-generation",
+  "aiSignals": {
+    "level": "medium",
+    "confidence": "low",
+    "reasons": [
+      "Participant declared AI use"
+    ],
+    "recommendedAction": "Optional walkthrough"
+  },
+  "scores": {
+    "correctness": 0,
+    "golfScore": 0,
+    "submissionHygiene": 3,
+    "total": 3
+  },
+  "gradedAt": "2026-05-08T20:45:54.975Z"
+}

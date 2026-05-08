@@ -1,7 +1,7 @@
 # Grading Summary
 
-Participant: Emma  
-Language: javascript  
+Participant: Phil  
+Language: powershell  
 Division: Classic  
 Round: round-002-pingpong  
 Passed: Yes  
@@ -11,16 +11,16 @@ Passed: Yes
 | Area | Score |
 |---|---:|
 | Correctness | 70 |
-| Golf Score | 20 |
+| Golf Score | 10 |
 | Submission Hygiene | 5 |
-| Total | 95 |
+| Total | 85 |
 
 ## Metrics
 
 | Metric | Value |
 |---|---:|
-| Runtime | 32ms |
-| Character Count | 94 |
+| Runtime | 1721ms |
+| Character Count | 244 |
 
 ## Comparison
 

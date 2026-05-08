@@ -1,6 +1,6 @@
 {
-  "participant": "Emma",
-  "language": "javascript",
+  "participant": "Sam",
+  "language": "python",
   "division": "Classic",
   "round": "round-002-pingpong",
   "passed": true,
@@ -9,8 +9,8 @@
     "reason": "Output matched expected result"
   },
   "metrics": {
-    "runtimeMs": 32,
-    "characterCount": 94
+    "runtimeMs": 344,
+    "characterCount": 114
   },
   "aiUsed": false,
   "aiTools": [],
@@ -27,5 +27,5 @@
     "submissionHygiene": 5,
     "total": 95
   },
-  "gradedAt": "2026-05-08T20:45:55.038Z"
+  "gradedAt": "2026-05-08T20:45:57.185Z"
 }

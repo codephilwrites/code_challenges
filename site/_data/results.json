@@ -1,65 +1,43 @@
 [
   {
-    "participant": "Phil",
-    "language": "powershell",
-    "division": "Classic",
+    "participant": "Alex",
+    "language": "csharp",
+    "division": "Open",
     "round": "round-002-pingpong",
-    "passed": true,
+    "passed": false,
     "comparison": {
-      "passed": true,
-      "reason": "Output matched expected result"
+      "passed": false,
+      "reason": "Execution failed",
+      "executionError": {
+        "message": "spawnSync /bin/sh ETIMEDOUT",
+        "stdout": "",
+        "stderr": ""
+      }
     },
     "metrics": {
-      "runtimeMs": 120,
-      "characterCount": 244
+      "runtimeMs": 5008,
+      "characterCount": 203
     },
-    "aiUsed": false,
-    "aiTools": [],
-    "aiUseType": "none",
+    "aiUsed": true,
+    "aiTools": [
+      "ChatGPT"
+    ],
+    "aiUseType": "solution-generation",
     "aiSignals": {
-      "level": "low",
+      "level": "medium",
       "confidence": "low",
-      "reasons": [],
-      "recommendedAction": "None"
+      "reasons": [
+        "Participant declared AI use"
+      ],
+      "recommendedAction": "Optional walkthrough"
     },
     "scores": {
-      "correctness": 70,
-      "golfScore": 10,
-      "submissionHygiene": 5,
-      "total": 85
+      "correctness": 0,
+      "golfScore": 0,
+      "submissionHygiene": 3,
+      "total": 3
     },
-    "gradedAt": "2026-05-08T00:00:00.000Z"
-  },
-  {
-    "participant": "Sam",
-    "language": "python",
-    "division": "Classic",
-    "round": "round-002-pingpong",
-    "passed": true,
-    "comparison": {
-      "passed": true,
-      "reason": "Output matched expected result"
-    },
-    "metrics": {
-      "runtimeMs": 60,
-      "characterCount": 114
-    },
-    "aiUsed": false,
-    "aiTools": [],
-    "aiUseType": "none",
-    "aiSignals": {
-      "level": "low",
-      "confidence": "low",
-      "reasons": [],
-      "recommendedAction": "None"
-    },
-    "scores": {
-      "correctness": 70,
-      "golfScore": 15,
-      "submissionHygiene": 5,
-      "total": 90
-    },
-    "gradedAt": "2026-05-08T00:00:00.000Z"
+    "gradedAt": "2026-05-08T20:45:54.975Z"
   },
   {
     "participant": "Emma",
@@ -72,7 +50,7 @@
       "reason": "Output matched expected result"
     },
     "metrics": {
-      "runtimeMs": 45,
+      "runtimeMs": 32,
       "characterCount": 94
     },
     "aiUsed": false,
@@ -90,12 +68,12 @@
       "submissionHygiene": 5,
       "total": 95
     },
-    "gradedAt": "2026-05-08T00:00:00.000Z"
+    "gradedAt": "2026-05-08T20:45:55.038Z"
   },
   {
-    "participant": "Alex",
-    "language": "csharp",
-    "division": "Open",
+    "participant": "Phil",
+    "language": "powershell",
+    "division": "Classic",
     "round": "round-002-pingpong",
     "passed": true,
     "comparison": {
@@ -103,21 +81,17 @@
       "reason": "Output matched expected result"
     },
     "metrics": {
-      "runtimeMs": 700,
-      "characterCount": 203
+      "runtimeMs": 1721,
+      "characterCount": 244
     },
-    "aiUsed": true,
-    "aiTools": [
-      "ChatGPT"
-    ],
-    "aiUseType": "solution-generation",
+    "aiUsed": false,
+    "aiTools": [],
+    "aiUseType": "none",
     "aiSignals": {
-      "level": "medium",
+      "level": "low",
       "confidence": "low",
-      "reasons": [
-        "Participant declared AI use"
-      ],
-      "recommendedAction": "Optional walkthrough"
+      "reasons": [],
+      "recommendedAction": "None"
     },
     "scores": {
       "correctness": 70,
@@ -125,6 +99,37 @@
       "submissionHygiene": 5,
       "total": 85
     },
-    "gradedAt": "2026-05-08T00:00:00.000Z"
+    "gradedAt": "2026-05-08T20:45:56.810Z"
+  },
+  {
+    "participant": "Sam",
+    "language": "python",
+    "division": "Classic",
+    "round": "round-002-pingpong",
+    "passed": true,
+    "comparison": {
+      "passed": true,
+      "reason": "Output matched expected result"
+    },
+    "metrics": {
+      "runtimeMs": 344,
+      "characterCount": 114
+    },
+    "aiUsed": false,
+    "aiTools": [],
+    "aiUseType": "none",
+    "aiSignals": {
+      "level": "low",
+      "confidence": "low",
+      "reasons": [],
+      "recommendedAction": "None"
+    },
+    "scores": {
+      "correctness": 70,
+      "golfScore": 20,
+      "submissionHygiene": 5,
+      "total": 95
+    },
+    "gradedAt": "2026-05-08T20:45:57.185Z"
   }
 ]

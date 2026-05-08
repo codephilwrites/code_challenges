@@ -1,7 +1,7 @@
 # Grading Summary
 
-Participant: Emma  
-Language: javascript  
+Participant: Sam  
+Language: python  
 Division: Classic  
 Round: round-002-pingpong  
 Passed: Yes  
@@ -19,8 +19,8 @@ Passed: Yes
 
 | Metric | Value |
 |---|---:|
-| Runtime | 32ms |
-| Character Count | 94 |
+| Runtime | 344ms |
+| Character Count | 114 |
 
 ## Comparison
 
