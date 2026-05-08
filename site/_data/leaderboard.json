@@ -1,0 +1,58 @@
+[
+  {
+    "participant": "Emma",
+    "division": "Classic",
+    "roundsEntered": 1,
+    "passedRounds": 1,
+    "totalScore": 95,
+    "wins": 1,
+    "bestScore": 95,
+    "averageScore": 95,
+    "languages": [
+      "javascript"
+    ],
+    "aiUsedCount": 0
+  },
+  {
+    "participant": "Sam",
+    "division": "Classic",
+    "roundsEntered": 1,
+    "passedRounds": 1,
+    "totalScore": 90,
+    "wins": 0,
+    "bestScore": 90,
+    "averageScore": 90,
+    "languages": [
+      "python"
+    ],
+    "aiUsedCount": 0
+  },
+  {
+    "participant": "Alex",
+    "division": "Open",
+    "roundsEntered": 1,
+    "passedRounds": 1,
+    "totalScore": 85,
+    "wins": 0,
+    "bestScore": 85,
+    "averageScore": 85,
+    "languages": [
+      "csharp"
+    ],
+    "aiUsedCount": 1
+  },
+  {
+    "participant": "Phil",
+    "division": "Classic",
+    "roundsEntered": 1,
+    "passedRounds": 1,
+    "totalScore": 85,
+    "wins": 0,
+    "bestScore": 85,
+    "averageScore": 85,
+    "languages": [
+      "powershell"
+    ],
+    "aiUsedCount": 0
+  }
+]

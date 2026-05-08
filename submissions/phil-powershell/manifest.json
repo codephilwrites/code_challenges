@@ -1,0 +1,12 @@
+{
+  "name": "Phil",
+  "language": "powershell",
+  "command": "pwsh -File solution.ps1",
+  "windowsCommand": "powershell.exe -NoProfile -ExecutionPolicy Bypass -Command \"Get-Content .\\solution.ps1 | Invoke-Expression\"",
+  "scoredFiles": [
+    "solution.ps1"
+  ],
+  "aiUsed": false,
+  "aiTools": [],
+  "aiUseType": "none"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Alex",
+  "language": "csharp",
+  "command": "dotnet run --project Solution --verbosity quiet",
+  "windowsCommand": "dotnet run --project Solution --verbosity quiet",
+  "scoredFiles": [
+    "Solution/Program.cs"
+  ],
+  "aiUsed": true,
+  "aiTools": [
+    "ChatGPT"
+  ],
+  "aiUseType": "solution-generation"
+}

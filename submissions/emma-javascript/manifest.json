@@ -1,0 +1,12 @@
+{
+  "name": "Emma",
+  "language": "javascript",
+  "command": "node solution.js",
+  "windowsCommand": "node solution.js",
+  "scoredFiles": [
+    "solution.js"
+  ],
+  "aiUsed": false,
+  "aiTools": [],
+  "aiUseType": "none"
+}

@@ -1,0 +1,78 @@
+name: Grade and Publish League
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: Grade all submissions
+        run: npm run grade:all
+
+      - name: Update Jekyll data
+        run: npm run update:league
+
+      - name: Upload grading data
+        uses: actions/upload-artifact@v4
+        with:
+          name: grading-data
+          path: |
+            submissions/*/grading-result.json
+            submissions/*/grading-summary.md
+            site/_data/*.json
+
+      - name: Commit updated league data
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add site/_data/*.json submissions/*/grading-result.json submissions/*/grading-summary.md
+          git commit -m "Update league scores" || echo "No changes to commit"
+          git push
+
+  pages:
+    needs: grade
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build site with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./site
+          destination: ./_site
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

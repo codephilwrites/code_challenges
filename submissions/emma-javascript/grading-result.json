@@ -1,0 +1,31 @@
+{
+  "participant": "Emma",
+  "language": "javascript",
+  "division": "Classic",
+  "round": "round-002-pingpong",
+  "passed": true,
+  "comparison": {
+    "passed": true,
+    "reason": "Output matched expected result"
+  },
+  "metrics": {
+    "runtimeMs": 102,
+    "characterCount": 94
+  },
+  "aiUsed": false,
+  "aiTools": [],
+  "aiUseType": "none",
+  "aiSignals": {
+    "level": "low",
+    "confidence": "low",
+    "reasons": [],
+    "recommendedAction": "None"
+  },
+  "scores": {
+    "correctness": 70,
+    "golfScore": 20,
+    "submissionHygiene": 5,
+    "total": 95
+  },
+  "gradedAt": "2026-05-08T20:42:50.075Z"
+}

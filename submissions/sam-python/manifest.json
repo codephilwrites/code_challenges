@@ -1,0 +1,12 @@
+{
+  "name": "Sam",
+  "language": "python",
+  "command": "python3 solution.py",
+  "windowsCommand": "python solution.py",
+  "scoredFiles": [
+    "solution.py"
+  ],
+  "aiUsed": false,
+  "aiTools": [],
+  "aiUseType": "none"
+}

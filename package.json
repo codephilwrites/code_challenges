@@ -1,0 +1,10 @@
+{
+  "name": "engineering-challenge-league",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "grade:all": "node scripts/grade-all.mjs",
+    "update:league": "node scripts/update-league.mjs",
+    "build:data": "npm run grade:all && npm run update:league"
+  }
+}
